@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+
+    <%- include('./partials/nav.ejs') %>
+
+    <body>
+        <form class="msg-form" method="POST" action="/new">
+            <div class="top-bar-form">
+                <h1>Message</h1>
+            </div>
+
+            <div class="input-form">
+                <input
+                    class="name-bar"
+                    id="user"
+                    name="user"
+                    type="text"
+                    placeholder="Enter your name"
+                    autocomplete="off"
+                    
+                />
+
+                <input 
+                    class="msg-bar"
+                    id="userMsg"
+                    name="userMsg"
+                    type="text"
+                    placeholder="Enter a message"
+                    autocomplete="off"
+                />
+
+                <button type="submit" class="btn" value="send-msg">Send Message</button>
+            </div>
+        </form>
+    </body>
+</html>
