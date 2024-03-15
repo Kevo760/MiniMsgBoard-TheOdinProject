@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/TheLegend760/MiniMsgBoard-TheOdinProject]
+- Solution URL: [https://github.com/Kevo760/MiniMsgBoard-TheOdinProject]
 - Live Site URL: [https://minimessageboard-wutn.onrender.com/]
 
 ## My process
